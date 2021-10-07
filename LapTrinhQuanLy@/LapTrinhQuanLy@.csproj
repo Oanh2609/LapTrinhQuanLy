@@ -163,6 +163,10 @@
     <Compile Include="Migrations\202110071647160_6.Designer.cs">
       <DependentUpon>202110071647160_6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110071701497_a.cs" />
+    <Compile Include="Migrations\202110071701497_a.Designer.cs">
+      <DependentUpon>202110071701497_a.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AutoKey.cs" />
@@ -615,6 +619,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202110071647160_6.resx">
       <DependentUpon>202110071647160_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110071701497_a.resx">
+      <DependentUpon>202110071701497_a.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
